@@ -1,0 +1,86 @@
+#topHeader{
+    background-color: white;
+    border-bottom: 1px solid silver;
+    
+}
+
+#topHeader a{
+    font-weight: 600;
+    font-size: 0.89rem;
+    color: #34495e;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* footer */
+.full-footer{
+    background-color: #2c3e50;
+    /* position: absolute;
+    bottom: 0;
+    width:100%; */
+
+}
+
+.top-footer p {
+    color: aliceblue;
+    
+}
+.top-footer a {
+    color: white;
+    font-weight: 600;
+}
+.top-footer h3{
+    color: aliceblue;
+}
+.bottom-footer{
+    background-color:#95a5a6;
+    color:black;
+}
+/* end footer */
+
+/* start-her0 */
+.top-here-section{
+    background-color: #95a5a6;
+    color: white;
+}
+.top-here-section a{
+    color: white;
+    font-weight: 600px;
+}
+.quality-img{
+    width: 100px;
+}
+.requirements-section{
+    background-color: #95a5a6;
+    color: white;
+}
+.Home-newsletter{
+    background-color: #95a5a6;
+    color: white;
+
+}
+.Home-newsletter .form-control{
+    height: 50px;
+    border-color: transparent;
+    border-radius: 20px /*left top*/ 0/*right top*/ 0/*right bottom*/ 20px/*left bottom*/;
+}
+.Home-newsletter .btn{
+    height: 50px;
+    background-color:#34495e ;
+    border-radius: 0 20px 20px 0;
+    color: white;
+
+}
+.clients-section{
+    background-color: silver;
+}
+.breadcrumbs-section{
+    background-color:#e9ecef;;
+}
+.address p{
+    font-weight: 600;
+
+}
+
+ 
