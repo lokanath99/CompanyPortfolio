@@ -231,11 +231,19 @@
           <h3>
             Subscribe to our Newsletter
           </h3>
-          <div class="input-group p-3" >
-            <input type="email" class="form-control" id="semail" placeholder="Enter your mail">
-            <span class="input-group-btn">
-              <button class="btn btn-theme" type="sumbit" name="sub" onclick="alert('your email is subscribed, Thankyou.')";>Subscribe</button>
-            </span>
+          <div class="input-group " >
+            <form action="https://formsubmit.co/lokanath1912@gmail.com" method="POST">
+              <div class="form-row">
+              <div class="col form-group">
+                <input type="hidden" name="_subject" value="New Mail">
+                <input type="hidden" name="_captcha" value="false">  
+                <input type="hidden" name="_next" value="https://lokanath99.github.io/index.html">
+                <input type="email" class="form-control" id="semail" placeholder="Enter your mail">
+              </div>
+              <div class="col form-group">
+                <button class="btn btn-primary text-center form-control col-md-3" type="sumbit" name="sub" onclick="alert('your email is subscribed, Thankyou.')";>Subscribe</button>
+              </div>
+              </form>
           </div>
         </div>
       </div>
